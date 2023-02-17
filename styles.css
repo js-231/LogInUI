@@ -1,0 +1,29 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    min-height: 400px;
+    align-content: center;
+}
+
+.login-box{
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 25%;
+   }
+
+
+#username, #password-in{
+    margin-top: 3px;
+    border-radius: 10px;
+}
+#loginnn-button{
+    margin: 3px;
+    border-radius: .5em;
+}
