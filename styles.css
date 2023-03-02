@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(0deg, rgba(219, 200, 91, 0.226) 0%, rgba(89, 69, 143, 0.233)0%);
+}
+
 .container-fluid{
     display: flex;
     justify-content: center;
@@ -6,24 +10,52 @@
     align-content: center;
 }
 
+
+/*#bgvid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 0;
+}
+*/
 .login-box{
     display: flex;
-    height: 40vh;
-    width: 20vw;
+    height: 50vh;
+    width: 40vw;
     flex-direction: column;
     align-self: center;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: rgb(226, 125, 43);
     border-radius: 25%;
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    border-style: solid;
+    border-color: rgba(240, 10, 10, 0.336); 
+    border-width: 5px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1)100%);
+    overflow: hidden;
+    z-index: 1;
    }
 
 
 #username, #password-in{
-    margin-top: 3px;
+    margin-top: 5px;
     border-radius: 10px;
+    
 }
-#loginnn-button{
-    margin: 3px;
+#login-button{
+    margin-top: 20px;
     border-radius: .5em;
+    
+}
+
+@media(any-hover:hover){
+    #username:hover, #password-in:hover{
+        background-color: bisque;
+    }
+    #login-button:hover{
+        background: linear-gradient(90deg, rgba(88, 163, 158, 0.753)0%, rgb(230,228,113)100%);
+    }
 }
